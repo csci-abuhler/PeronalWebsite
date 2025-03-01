@@ -1,0 +1,102 @@
+body {
+  margin: 0%;
+  background-color: black;
+}
+
+.copyright {
+  line-height: 2;
+  font-size: 1em;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.webpages-image {
+  max-width: 100%;
+  height: auto;
+  width: auto\8;
+  border-radius: 70px;
+  margin: 2%;
+}
+
+.about-me,
+.dnd-section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.page-top-text {
+  width: 373px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.selfie,
+.dice-image {
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.dnd-section-text {
+  margin-right: 10%;
+}
+
+.page-title,
+.page-subtitle,
+.about-me-text,
+.dnd-section-text {
+  color: aliceblue;
+  background-color: black;
+  border-radius: 70px;
+}
+
+.page-title,
+.page-subtitle,
+.github-link,
+.email-link,
+.bottom-container-text {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.page-title,
+.page-subtitle,
+p,
+a,
+.about-me-text,
+.dnd-section-text {
+  font-family: "Courier New";
+}
+
+.outer-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.page-subtitle {
+  font-size: 1.5rem;
+}
+
+.button {
+  border-radius: 50px;
+  background-color: blue;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.copyright,
+.bottom-container-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
